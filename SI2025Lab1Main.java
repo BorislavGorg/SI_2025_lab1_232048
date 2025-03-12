@@ -3,6 +3,7 @@ import java.util.*;
 enum Priority {
     LOW, MEDIUM, HIGH
 }
+<<<<<<< HEAD
 public List<Task> findAllCompletedTasks() {
     List<Task> completedTasks = new ArrayList<>();
     for (Task task : tasks) {
@@ -12,6 +13,20 @@ public List<Task> findAllCompletedTasks() {
     }
     return completedTasks;
 }
+=======
+
+public Map<String, Integer> countTasksPerCategory()
+{
+    Map<String, Integer> categoryCount = new HashMap<>();
+    for (Task task : tasks)
+    {
+        categoryCount.put(task.getCategory(), categoryCount.getOrDefault(task.getCategory(), 0) + 1);
+    }
+    return categoryCount;
+}
+
+
+>>>>>>> 5c3323836c1e956c7a967316eef56a4c3679498b
 class Task {
     private String name;
     private boolean isCompleted;
