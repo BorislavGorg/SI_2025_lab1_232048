@@ -1,0 +1,24 @@
+*   0e67988 Resolved merge conflicts
+|\  
+| *   60ced84 Merge pull request #14 from BorislavGorg/2-find-all-completed-tasks
+| |\  
+| | *   5ceab29 Merge pull request #13 from BorislavGorg/master
+| | |\  
+| | |/  
+| |/|   
+* | | 93c0d9a Implementhed method: Sort task by priority
+| | | * 3775b8a Resolved merge conflict
+| | | * 7b2771f Resolved merge conflict
+| | | *   965ebd6 Resolved merge conflict between master and 4-sort-tasks-by-priority
+| | | |\  
+| | |_|/  
+| |/| |   
+| * | | 5c33238 Merge pull request #10 from BorislavGorg/2-find-all-completed-tasks
+|/| | | 
+| |/ /  
+| * / e092882 Implemented method: Count tasks per category
+|/ /  
+| * 13b8bad Implemented method:Find all completed tasks
+|/  
+* 4f34c86 Add starter code
+* ad9cee7 Initial cimmit

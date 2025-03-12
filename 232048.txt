@@ -1,0 +1,10 @@
+232048
+
+git fetch origin
+git checkout 2-find-all-completed-tasks
+git add .
+git commit -m "Implemented the function for finding all completed tasks"
+git push origin 2-find-all-completed-tasks
+git checkout master
+git merge 4-sort-tasks-by-priority
+git log --oneline --graph --all > logs.txt
