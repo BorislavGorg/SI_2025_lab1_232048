@@ -3,7 +3,15 @@ import java.util.*;
 enum Priority {
     LOW, MEDIUM, HIGH
 }
-
+public List<Task> findAllCompletedTasks() {
+    List<Task> completedTasks = new ArrayList<>();
+    for (Task task : tasks) {
+        if (task.isCompleted()) {
+            completedTasks.add(task);
+        }
+    }
+    return completedTasks;
+}
 class Task {
     private String name;
     private boolean isCompleted;
