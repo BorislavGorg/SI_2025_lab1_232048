@@ -1,3 +1,1 @@
-Ime: Borislav
-Prezime: Gjorgievski
-Index: 232048
+Borislav Gjorgievski 232048
