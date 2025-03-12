@@ -11,6 +11,16 @@ public void sortTasksByPriority() {
         }
     });
 }
+public Map<String, Integer> countTasksPerCategory()
+{
+    Map<String, Integer> categoryCount = new HashMap<>();
+    for (Task task : tasks)
+    {
+        categoryCount.put(task.getCategory(), categoryCount.getOrDefault(task.getCategory(), 0) + 1);
+    }
+    return categoryCount;
+}
+
 class Task {
     private String name;
     private boolean isCompleted;
