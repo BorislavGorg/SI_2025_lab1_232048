@@ -3,7 +3,14 @@ import java.util.*;
 enum Priority {
     LOW, MEDIUM, HIGH
 }
-
+public void sortTasksByPriority() {
+    Collections.sort(tasks, new Comparator<Task>() {
+        @Override
+        public int compare(Task task1, Task task2) {
+            return task2.getPriority().compareTo(task1.getPriority());
+        }
+    });
+}
 class Task {
     private String name;
     private boolean isCompleted;
